@@ -1,3 +1,0 @@
-select * from OrgUnit
-left join OrgHierarchyPrimary on OrgUnit.OrgUnitId=ChildOrgUnitId
-where ParentOrgLevelId = 997
